@@ -13,10 +13,10 @@ enum DaysOfWeek {
   Sunday = "Sunday"
 } 
 
-function isWeekend(day: DaysOfWeek) {
+function isWeekend(day: DaysOfWeek): boolean {
   // const weekend = [DaysOfWeek.Saturday, DaysOfWeek.Sunday];
   // return weekend.includes(day);
-  if (day === DaysOfWeek.Saturday || day === DaysOfWeek.Sunday) {
+        if (day === DaysOfWeek.Saturday || day === DaysOfWeek.Sunday) {
     return true
   } else {
     return false
